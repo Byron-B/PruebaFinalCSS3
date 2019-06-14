@@ -1,0 +1,331 @@
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+}
+.contenedor{
+	width: 900px;
+}
+header{
+	margin: 0px;
+	background-color: #5b7989;
+	border-radius: 20px 20px 0px 0px;
+}
+#Encabezado{
+	margin: 0px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.Titulo{
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	background-color:#5b7989;
+	border-radius: 20px 20px 0px 0px;
+}
+.Menu{
+	margin: 0px;
+	text-align: center;
+	display: flex;
+	width: 40%;
+	background-color:#5b7989;
+}
+#ImagenCentral{
+	margin: 0px;
+	display: flex;
+	background-color: #86c3a6;
+	text-align: center;
+	width: 100%;
+}
+.ImagenCasa{
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: #86c3a6;
+}
+.casa{
+	box-shadow: 2px 2px #02010a;
+}
+#ImagenSecundaria{
+	margin: 0px;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	background-color: #d5c75f;
+}
+.ImagenVolcan{
+	margin: 0px;
+	text-align: center;
+	width: 50%;
+	transition: rotate, 2s;
+}
+.volcan{
+	box-shadow: 2px 2px #02010a;
+}
+.ImagenVolcan :hover{
+	transform: rotate(10deg);
+}
+.ImagenCascada{
+	margin: 0px;
+	text-align: center;
+	width: 50%;
+	transition: translate.2s;
+}
+.cascada{
+	box-shadow: 2px 2px #02010a;
+}
+.ImagenCascada :hover{
+		transform: translate(20px,-5px);
+}
+figcaption{
+	text-align:center;
+	text-decoration: underline;
+	font-size: 20px;
+}
+footer{
+	background-color: #C6d5c5;
+	margin: 0px;
+	font-size: 20px;
+	border-radius: 0px 0px 20px 20px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.Contacto{
+
+	width: 25%
+}
+.Terminos{
+
+	width: 25%;
+}
+.Sociales{
+
+	width: 25%;
+}
+.Copyright{
+
+	width: 25%;
+}
+h1{
+	text-shadow: 0px 2px #02010a;
+	color:white;
+	font-size: 30px;
+}
+a:link,a:visited {
+	color: white;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	height: 100%
+}
+li{
+	float: right;
+	display: block;
+	margin:0px 15px;
+	padding: 0px 0px;
+	height: 100px;
+	font-size: 25px;
+}
+#GaleriaPaisajes{
+	text-align: center;
+	width: 100%;
+	background-color: #d5c75f;
+	margin: 0px;
+	display: flex;
+}
+#GaleriaPaisajes2{
+	text-align: center;
+	width: 100%;
+	background-color: #d5c75f;
+	margin: 0;
+	display: flex;
+}
+.Imagen1{
+	text-align: center;
+	width: 60%;
+}
+.Imagen2{
+	text-align: center;
+	width: 60%;
+}
+.Imagen3{
+	text-align: center;
+	width: 60%;
+}
+.Imagen4{
+	text-align: center;
+	width: 60%;
+}
+.Imagen5{
+	text-align: center;
+	width: 60%;
+}
+.Imagen6{
+	text-align: center;
+	width: 60%;
+}
+#GaleriaCascada{
+	text-align: center;
+	width: 100%;
+	background-color: #d5c75f;
+	margin: 0px;
+	display: flex;
+}
+#GaleriaCascada2{
+	text-align: center;
+	width: 100%;
+	background-color: #d5c75f;
+	margin: 0;
+	display: flex;
+}
+.Cascada1{
+	text-align: center;
+	width: 60%;
+}
+.Cascada2{
+	text-align: center;
+	width: 60%;
+}
+.Cascada3{
+	text-align: center;
+	width: 60%;
+}
+.Cascada4{
+	text-align: center;
+	width: 60%;
+}
+.Cascada5{
+	text-align: center;
+	width: 60%;
+}
+.Cascada6{
+	text-align: center;
+	width: 60%;
+}
+.image1{
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+.image2{
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.image3{
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+.image4{
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.image5{
+	box-shadow: 2px 2px #02010a;
+}
+.image6{
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+@media all and  (max-width:900px) {
+	.contenedor{
+		width: 900px;
+}
+
+@media all and (min-width: 480px){
+	.contenedor{
+		width: 100%;
+}
+#Encabezado{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.Titulo{
+	width: 100%;
+}
+.Menu{
+	width: 100%;
+}
+.casa{
+	width: 100%;
+}
+#ImagenSecundaria{
+	display: flex;
+	flex-direction: column;
+}
+.ImagenVolcan{
+	width: 100%;
+}
+.ImagenCascada{
+	width: 100%;
+}
+.Contacto{
+	width: 100%;
+}
+.Terminos{
+	width: 100%;
+}
+.Sociales{
+	width: 100%;
+}
+.Copyright{
+	width: 100%;
+}
+#GaleriaPaisajes{
+	display: flex;
+	flex-direction: column;
+}
+.image1{
+	width: 100%;
+}
+.image2{
+	width: 100%;
+}
+.image3{
+	width: 100%;
+}
+#GaleriaPaisajes2{
+	display: flex;
+	flex-direction: column;
+}
+.image4{
+	width: 100%;
+}
+.image5{
+	width: 100%;
+}
+.image6{
+	width: 100%;
+}
+#GaleriaCascada{
+	display: flex;
+	flex-direction: column;
+}
+.image1{
+	width: 100%;
+}
+.image2{
+	width: 100%;
+}
+.image3{
+	width: 100%;
+}
+#GaleriaCascada2{
+	display: flex;
+	flex-direction: column;
+}
+.image4{
+	width: 100%;
+}
+.image5{
+	width: 100%;
+}
+.image6{
+	width: 100%;
+}
